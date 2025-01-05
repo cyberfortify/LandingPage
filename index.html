@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="img/banneer1.png" alt="">
+        <h1>Exclusive Get 4 Products at just 1999!! </h1>
+    </div>
+
+    <div class="steps">
+        <p style="font-size: 18px;"><span style="color: red;">Steps</span> to Claim the <strong>Exclusive</strong> Product at just 1999/-</p>
+        <br>
+        <p><span style="color: red;">Step 1:</span> Choose any 4 Products</p>
+        <br>
+        <p><span style="color: red;">Step 2:</span> Add your products to the cart</p>
+        <br>
+        <p><span style="color: red;">Step 3:</span> Pay only Rs.1999/- on checkout</p>
+    </div>
+
+    <!-- Product List Section -->
+    <div id="product-list">
+
+        <div class="products-container">
+            <div class="product-card">
+                <img src="img/product 1.webp" alt="Product 1" class="product-image" />
+                <h3 class="product-title">ABSOLUTE MULTIVITAMIN</h3>
+                <p class="product-description">General Health</p>
+                <p class="product-price">₹349</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product2.png" alt="Product 2" class="product-image" />
+                <h3 class="product-title">AL NUTRITION PROTEIN BAR</h3>
+                <p class="product-description">Strength</p>
+                <p class="product-price">₹2099</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product3.jpeg" alt="Product 3" class="product-image" />
+                <h3 class="product-title">AL Nutrition RECOVERY (31 Servings)</h3>
+                <p class="product-description">Endurance, Recovery</p>
+                <p class="product-price">₹649</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product4.webp" alt="Product 4" class="product-image" />
+                <h3 class="product-title">MILK CHOCOLATE PEANUT BUTTER WITH WHEY SWEETENED WITH DATES</h3>
+                <p class="product-description">General Health, Strength</p>
+                <p class="product-price">₹599</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product5.jpg" alt="Product 5" class="product-image" />
+                <h3 class="product-title">ONE EXTRA REP- PREWORKOUT</h3>
+                <p class="product-description">Endurance, Strength</p>
+                <p class="product-price">₹899</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product6.webp" alt="Product 6" class="product-image" />
+                <h3 class="product-title">WHEY PROTEIN</h3>
+                <p class="product-description">Strength</p>
+                <p class="product-price">₹559</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Price Display Section -->
+    <div id="cart-summary">
+        <p id="total-price">Total: ₹<span id="actual-price">0</span></p>
+        <p id="saved-amount" style="display: none;">Saved: ₹<span id="discount-amount">0</span></p>
+        <p id="offer-price" style="display: none;">Offer Price: ₹1999 <small>(of 4 Product)</small></p>
+        <button id="finalize-cart" disabled><a class="add-to-checkout" target="_blank"
+                href="https://alnutrition.in/cart-2/">Add to Checkout</a></button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2025. All Rights Reserved.</p>
+            </div>
+            
+            <div class="footer-right">
+                <p><a style="color: white;text-decoration:none;" href="mailto:work.aditya2010@gmail.com">Contact Us</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
